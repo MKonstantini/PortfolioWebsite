@@ -1,0 +1,60 @@
+@use 'misc.scss';
+
+#section_projects {
+    margin-bottom: 80px;
+    color: #fff;
+    .title_vertical{
+        color: #000;
+    }
+    .projects_box{
+        border: 1px solid misc.$primary-color;
+        margin-bottom: 50px;
+        border-radius: 10px;
+        padding: 10px;
+        div{
+            border-radius: 10px;
+            position: relative;
+            padding: 10px;
+            .demo_img{
+                position: absolute;
+                height: 100%;
+                width: 50%;
+                z-index: -1;
+                right: 0;
+                top: 0;
+            }
+            img{
+                width: 160px;
+                height: 80%;
+            }
+            .technology{
+                background-color: #29292959;
+                border-radius: 10px;
+                padding: 2px 10px;
+            }
+            a {
+                text-decoration: none;
+            }
+            i {
+                margin: 16px 12px 0px 12px;
+                font-size: 30px;
+                color: #fff;
+            }
+        }        
+    }
+    #project1{
+        div {
+            background-color: #397e4f5d;
+        }
+    }
+    #project2{
+        div {
+            background-color: #52797c5d;
+        }
+    }
+    #project3{
+        div {
+            background-color: #4250695d;
+        }
+    }
+}

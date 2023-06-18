@@ -1,0 +1,155 @@
+@use 'home.scss';
+@use 'misc.scss';
+@use 'about.scss';
+@use 'contact.scss';
+@use 'projects.scss';
+@use 'skills.scss';
+
+html {
+    scroll-behavior: smooth;
+}
+main {
+    position: absolute;
+}
+body {
+    animation: transitionOnLoad 0.75s;
+    overflow-x:hidden;
+    margin: 0;
+}
+canvas {
+    position: fixed;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+
+.title_vertical {
+    h1 {
+        margin-left: 10px;
+    }
+}
+.background_icon{
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    fill-opacity: 0.1;
+    height: 300px;
+    width: 300px;
+    z-index: -1;
+    scale: 1.1;
+}
+
+// Navbar Responsiveness
+@media (max-width: 768px) {
+    .nav_horizontal .links,
+    .nav_horizontal .styled_btn {
+        display: none;
+    }
+    .nav_horizontal .toggle_btn {
+        display: block !important;
+    }
+    .nav_dropdown {
+        display: block !important;
+    }
+}
+@media (max-width: 576px) {
+    .nav_dropdown {
+        width: unset !important;
+        left: 2rem;
+    }
+}
+// Vertical Titles Responsiveness
+@media (max-width: 576px) {
+    #section_projects .title_vertical {
+        margin-right: 100px;
+    }
+    #section_projects {
+        margin-bottom: 40px;
+    }
+    #section_about .container{
+        padding: 5px;
+    }
+    #section_contact .container{
+        padding: 20px;
+        margin-top: 16px;
+    }
+
+}
+@media (min-width: 576px) {
+    .container{
+        padding: 0px 100px;
+    }
+    .title_vertical {
+        transform: rotate(270deg);
+        position: relative;
+        display: block;
+        width: 100px;
+        top: 100px;
+    }
+    #section_skills {
+        .container{
+            padding: 0px;
+        }
+        .title_vertical{
+            top: 140px;
+        }
+    }
+    #section_projects .title_vertical {
+        margin-bottom: 20px;
+        top: 250px;
+    }
+    #section_about .title_vertical {
+        margin-bottom: 20px;
+        top: 200px;
+    }
+    #section_contact .title_vertical {
+        top: 250px;
+    }
+}
+// Bottom-Padding On Sections
+@media (min-width: 768px) {
+    #section_skills {
+        padding-bottom: 56px;
+    }
+}
+// Projects Background Display
+@media (max-width: 991px) {
+    .demo_img{
+        display: none;
+    }
+}
+// Toggle Exwayer Font Sizing
+@media (max-width: 680px) {
+    #section_home h1 {
+        font-size: 17vw !important;
+    }
+}
+
+// Animations
+.fade-in{
+    transition: opacity 250ms ease-in;
+    opacity: 0;
+}
+.fade-in.appear{
+    opacity: 1
+}
+.slide-left{
+    transition: transform 600ms ease-in, opacity 300ms ease-in;
+    transform: translateX(-20%);
+    opacity: 0;
+}
+.slide-left.appear{
+    transform: translateX(0);
+    opacity: 1;
+}
+
+@keyframes transitionOnLoad {
+    from {
+        opacity: 0;   
+    }
+    to {
+        opacity: 1;   
+    }
+}
+
+

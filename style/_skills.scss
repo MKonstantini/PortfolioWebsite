@@ -1,0 +1,21 @@
+#section_skills {
+    background-color: #707070d0;
+    color: #fff;
+    .skills_box{
+        margin-bottom: 50px;
+        position: relative;
+        #backend_icon {
+            background-image: url(../assets/SVG/iconBackend_SVG.svg);
+        }
+        #frontend_icon {
+            background-image: url(../assets/SVG/iconFrontend_SVG.svg);
+        }
+        #more_icon {
+            background-image: url(../assets/SVG/iconMore_SVG.svg);
+        }
+        h2{
+            margin-bottom: 28px;
+            margin-top: 14px;
+        }
+    }
+}

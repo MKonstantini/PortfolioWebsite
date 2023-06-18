@@ -1,0 +1,19 @@
+#section_home{
+    width: 100vw;
+    height: calc(100vh - 60px);
+    h1 {
+        font-family:'exwayer';
+        font-size: 7em;
+    }
+    // Change Text on Hover
+    // h2 {
+    //     // width: 500px;
+    // }
+    // h2:hover span {
+    // display: none;   
+    // }
+    // h2:hover:before {
+    //     content: "&& Frontend Enthusiast.";
+    //     color: $primary-color;
+    // }
+}

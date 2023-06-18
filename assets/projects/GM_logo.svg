@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="64"
+   height="64"
+   viewBox="0 0 16.933333 16.933333"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <g
+     id="layer1">
+    <circle
+       style="fill:#198863;fill-opacity:0.575129;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round"
+       id="circle18371"
+       cx="8.0385256"
+       cy="8.0833082"
+       r="6.1309366" />
+    <circle
+       style="fill:#198863;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round"
+       id="path234"
+       cx="8.0385256"
+       cy="8.0833082"
+       r="5.2395959" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:4.80747px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic, Italic';fill:#ffffff;fill-opacity:1;stroke:#464646;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="-13.769724"
+       y="8.1461182"
+       id="text6490"
+       transform="rotate(-97.635692)"><tspan
+         id="tspan6488"
+         style="fill:#ffffff;fill-opacity:1;stroke:#464646;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+         x="-13.769724"
+         y="8.1461182">$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.65102px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:#484848;stroke-width:0.331142;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="1.6461215"
+       y="9.1984549"
+       id="text2542"
+       transform="scale(0.94984693,1.0528012)"><tspan
+         id="tspan2540"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.65102px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:#484848;stroke-width:0.331142;stroke-dasharray:none;stroke-opacity:1"
+         x="1.6461215"
+         y="9.1984549">GM</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+#section_about {
+    background-color: #707070d0;
+    padding-bottom: 80px;
+    color: #fff;
+    .container{
+        padding: 0px 100px;
+        max-width: 50rem;
+    }
+    #about_icon{
+        background-image: url(../assets/SVG/iconAbout.svg);
+    }
+    .styled_btn {
+    background-color: #ffffff8a;
+    transition: all 0.5s;
+    margin-top: 5px;
+    border: none; 
+    }
+}

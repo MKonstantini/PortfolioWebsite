@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/SVG/MK_logo.svg">
+    <title>Matan Konstantini</title>
+
+    <!-- THREE JS CDN + Script -->
+    <script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
+    <script type="importmap">
+    {
+        "imports": {
+        "three": "https://unpkg.com/three@v0.153.0/build/three.module.js",
+        "three/addons/": "https://unpkg.com/three@0.153.0/examples/jsm/"
+        }
+    }
+    </script>
+    <script type="module" src="./three.js"></script>
+
+    <!-- BOOTSTRAP CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="./style/style.css">
+    <!-- UI Script -->
+    <script defer src="ui.js"></script>
+</head>
+<body>
+    <!-- Canvas Background -->
+    <canvas id="bg"></canvas>
+    <script type="module" src="./main.js"></script>  
+
+    <!-- NavBar -->
+    <nav>
+        <div class="nav_horizontal">
+            <div class="logo">
+                <img src="./assets/SVG/MK_logo.svg" alt="">
+            </div>
+            <ul class="links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#section_skills">Skills</a></li>
+                <li><a href="#section_projects">Projects</a></li>
+                <li><a href="#section_about">About</a></li>
+            </ul>
+            <button class="styled_btn" data-bs-toggle="modal" data-bs-target="#cvModal">My Resume</button>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <div class="nav_dropdown">
+            <li><a href="#">Home</a></li>
+            <li><a href="#section_skills">Skills</a></li>
+            <li><a href="#section_projects">Projects</a></li>
+            <li><a href="#section_about">About</a></li>
+            <li>
+                <button href="#" class="styled_btn" data-bs-toggle="modal" data-bs-target="#cvModal">My Resume</button>
+            </li>
+        </div>
+    </nav>
+
+    <!-- Section : Home -->
+    <section id="section_home">
+        <div class="d-flex justify-content-center align-items-center text-center flex-column h-100">
+            <h1>Matan Konstantini</h1>
+            <h2 class="display-6">
+                <span>Fullstack Developer.</span>
+                <!-- <span>Online Since 1998.</span> -->
+                <!-- <span>Bringing Logic to Art.</span> -->
+            </h2>
+            <!-- <p>({ FULLSTACK DEVELOPER })</p> -->
+        </div>
+    </section>
+
+    <!-- Section : Skills -->
+    <section id="section_skills">
+        <span class="title_vertical">
+            <h1 class="display-1">./Skills</h1>
+        </span>
+        <div class="container text-center">
+            <div class="row">
+                <!-- Back -->
+                <div class="skills_box col-sm-12 col-md-4 d-flex flex-column justify-content-center align-items-center">
+                    <div id="backend_icon" class="background_icon"></div>
+                    <h1 class="pb-3 fade-in">Back.</h1>
+                    <div class="fade-in">
+                        <p>Node.js</p>
+                        <p>npm</p>
+                        <p>Rest API</p>
+                        <p>MongoDB</p>
+                        <p>MySQL</p>
+                    </div>
+                </div>
+                <!-- Front -->
+                <div class="skills_box col-sm-12 col-md-4 d-flex flex-column justify-content-center align-items-center">
+                    <div id="frontend_icon" class="background_icon"></div>
+                    <h1 class="pb-3 fade-in">Front.</h1>
+                    <div class="fade-in">
+                        <p>HTML / CSS / JS</p>
+                        <p>React</p>
+                        <p>TypeScript</p>
+                        <p>Bootstrap</p>
+                        <p>SASS</p>
+                    </div>
+                </div>
+                <!-- More -->
+                <div class="skills_box col-sm-12 col-md-4 d-flex flex-column justify-content-center align-items-center">
+                    <div id="more_icon" class="background_icon"></div>
+                    <h1 class="pb-3 fade-in">More.</h1>
+                    <div class="fade-in">
+                        <p>Java</p>
+                        <p>Python</p>
+                        <p>THREE JS</p>
+                        <p>Inkscape</p>
+                        <p>Linux</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section : Projects -->
+    <section id="section_projects">
+        <span class="title_vertical">
+            <h1 class="display-1">./Projects</h1>
+        </span>
+        <div class="container text-center">
+            <div class="row justify-content-around">
+                
+                <!-- Project 1 -->
+                <div id="project1" class="slide-left projects_box col-10">
+                    <div><div><div class="row justify-content-around m-1">
+                        <img class="demo_img" src="assets/projects/GM_demo.jpg">
+                        <span class="col-8 align-self-center">
+                            <h1>
+                                GAMER'S MARKET
+                            </h1>
+                            <p>An e-commerce website for gamers.</p>
+                            <span>
+                                <span class="technology">OOP</span>
+                                <span class="technology">JavaScript</span>
+                            </span><br>
+                            <span>
+                                <a href="https://github.com/MKonstantini/WebProject02_GamersMarket" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                                <a href="https://mkonstantini.github.io/WebProject02_GamersMarket/" target="_blank">
+                                    <i class="fa-solid fa-display"></i>
+                                </a>
+                            </span>
+                        </span>
+                        <span class="col-sm-4 p-0 align-self-center">
+                            <img src="assets/projects/GM_logo.svg">
+                        </span>
+                    </div></div></div>
+                </div>
+                <!-- Project2 -->
+                <div id="project2" class="slide-left projects_box col-10">
+                    <div><div><div class="row justify-content-around m-1">
+                        <img class="demo_img" src="assets/projects/Asteroids_demo.jpg">
+                        <span class="col-8 align-self-center">
+                            <h1>
+                                ASTEROIDS
+                            </h1>
+                            <p>A JavaScript physics-based game.</p>
+                            <span>
+                                <span class="technology">JavaScript</span>
+                            </span><br>
+                            <span class="project_links">
+                                <a href="https://github.com/MKonstantini/Asteroids" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                                <a href="https://mkonstantini.github.io/Asteroids/" target="_blank">
+                                    <i class="fa-solid fa-display"></i>
+                                </a>
+                            </span>
+                        </span>
+                        <span class="col-sm-4 p-0 align-self-center">
+                            <img src="assets/projects/Asteroids_logo.svg">
+                        </span>
+                    </div></div></div>
+                </div>
+                <!-- Project3 -->
+                <div id="project3" class="slide-left projects_box col-10">
+                    <div><div><div class="row justify-content-around m-1">
+                        <img class="demo_img" src="assets/projects/ManageU_demo.jpg">
+                        <span class="col-8 align-self-center">
+                            <h1>
+                                ManageU
+                            </h1>
+                            <p>A to-do list web-tool.</p>
+                            <span>
+                                <span class="technology">TypeScript</span>
+                            </span><br>
+                            <span class="project_links">
+                                <a href="https://github.com/MKonstantini/MiniProject02_ManageU" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                                <a href="https://mkonstantini.github.io/MiniProject02_ManageU/" target="_blank">
+                                    <i class="fa-solid fa-display"></i>
+                                </a>
+                            </span>
+                        </span>
+                        <span class="col-sm-4 p-0 align-self-center">
+                            <img src="assets/projects/ManageU_logo.svg">
+                        </span>
+                    </div></div></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Section : About -->
+    <section id="section_about">
+        <span class="title_vertical">
+            <h1 class="display-1">./About</h1>
+        </span>
+        <div class="container text-center">
+            <div class="mb-5 d-flex flex-column justify-content-center align-items-center p-2">
+                <h1 class="fade-in mb-3">Who I Am</h1>
+                <div>
+                    <p class="fade-in">I am a fullstack developer with a background in database programming.</p>
+                    <p class="fade-in">I found my calling in my millitary service, for computers and code - a world of logic to be created and shared; and what better tool for sharing than the internet.</p>
+                    <p class="fade-in">Fast forward to today, I run Linux on my main computer and spend most of the day creating websites and honing my craft.</p>
+                    <p class="fade-in">When I'm not in front of an IDE or terminal, I enjoy reading philosophy, playing piano and looking for Ranni in Elden Ring.</p>
+                    <button class="styled_btn fade-in mt-2" data-bs-toggle="modal" data-bs-target="#cvModal">My Resume</button>
+                </div>
+                <div class="background_icon" id="about_icon">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section : Contact -->
+    <section id="section_contact">
+        <span class="title_vertical">
+            <h1 class="display-1">./Contact</h1>
+        </span>
+        <div class="container text-center">
+            <h1 class="mb-3">Get In Touch!</h1>
+            <p class="mb-4">My inbox is always open. Feel free to send me any question!</p>
+            <form id="contactForm" onsubmit="onFormSubmit(), reset()" class="mt-5">
+                <!-- Email Label + Input -->
+                <div class="mb-4">
+                    <label for="contactEmail" class="form-label">Email Address:</label>
+                    <input type="email" class="form-control contact_focus text-center" id="contactEmail" placeholder="name@example.com" required>
+                </div>
+                <!-- Message Label + Input -->
+                <div class="mb-4">
+                    <label for="contactMessage" class="form-label">Your Message:</label>
+                    <textarea class="form-control contact_focus" id="contactMessage" rows="3" required></textarea>
+                </div>
+                <!-- Send Button -->
+                <div class="d-flex justify-content-center mt-4">
+                    <button class="styled_btn" type="submit">Send</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="p-5">
+        <div class="d-flex flex-wrap justify-content-around">
+            <div>
+                <h6 class="mb-4">Portfolio Website by Matan Konstantini</h6>
+                <p>Built with Three.js, Bootstrap & Font-Awesome</p>
+                <p>Coded in Visual Studio Code by yours truly</p>
+                <p>Deployed with Github</p>
+            </div>
+            <div class="text-center m-4">
+                <h6>Find Me Online At:</h6>
+                <div class="d-flex">
+                    <a href="https://www.linkedin.com/in/matan-konstantini-aa3a19224/" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/MKonstantini" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.facebook.com/matanko35" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- CV Modal -->
+    <div class="modal fade" id="cvModal" tabindex="-1" aria-labelledby="cvModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h1 class="modal-title fs-5" id="cvModalLabel">./My Resume</h1>
+            <button type="button" class="btn-close" style="outline: none; box-shadow: none;" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <embed src="assets/CV.pdf" width="100%" height="300px"/>
+        </div>
+        <div class="modal-footer d-flex justify-content-center">
+            <a href="assets/CV.pdf" download="MatanKonstantini_CV"><button class="styled_btn">Download PDF</button></a> 
+        </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>

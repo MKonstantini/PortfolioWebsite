@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="32"
+   height="32"
+   viewBox="0 0 8.4666665 8.4666666"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="ManageU_logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="16.710735"
+     inkscape:cx="19.777706"
+     inkscape:cy="12.028196"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient460">
+      <stop
+         style="stop-color:#97b79f;stop-opacity:0.6901961;"
+         offset="0.16827703"
+         id="stop1105" />
+      <stop
+         style="stop-color:#6367d8;stop-opacity:0.90196078;"
+         offset="0.86206895"
+         id="stop4920" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient460"
+       id="linearGradient462"
+       x1="0.17416449"
+       y1="6.0324249"
+       x2="9.0008326"
+       y2="1.6236796"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0689878,0,0,1.0689878,0.04978801,-0.35707811)" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#c8b7b7;fill-opacity:0.111421;stroke:#000000;stroke-width:0.312751;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.13649"
+       id="rect1887"
+       width="6.2185974"
+       height="5.6428018"
+       x="1.341459"
+       y="1.1289665"
+       ry="1.1241527" />
+    <rect
+       style="fill:#c8b7b7;fill-opacity:0.3;stroke:#000000;stroke-width:0.175705;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.208914"
+       id="rect1159"
+       width="3.493634"
+       height="3.1701493"
+       x="2.7039411"
+       y="2.3652928" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.03253px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic, Bold Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#linearGradient462);fill-opacity:1;stroke:#ffffff;stroke-width:0.03;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.993902"
+       x="0.38695347"
+       y="5.6326723"
+       id="text236"><tspan
+         sodipodi:role="line"
+         id="tspan234"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.03253px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic, Bold Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#linearGradient462);fill-opacity:1;stroke:#ffffff;stroke-width:0.03;stroke-dasharray:none;stroke-opacity:0.993902"
+         x="0.38695347"
+         y="5.6326723">MU</tspan></text>
+  </g>
+</svg>

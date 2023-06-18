@@ -1,0 +1,28 @@
+@use 'misc.scss';
+
+#section_contact {
+    background-color: #50505000;
+    padding-bottom: 80px;
+    .container{
+        padding: 0px 100px;
+        max-width: 50rem;
+    }
+    form {
+        border: #6e6700 1px dashed;
+        background-color: #e4e4e491;
+        margin-bottom: 26px;
+        border-radius: 10px;
+        padding: 25px;
+        p{
+            margin-bottom: 0px;      
+        }
+    }
+    h6 {
+        margin-bottom: 24px;
+    }
+    .contact_focus:focus {
+        border: 1px solid misc.$primary-color;
+        box-shadow: none;
+        outline: none; 
+    }
+}

@@ -3,12 +3,22 @@ My portfolio website, for keeping track of my progress and for potential employe
 Link: [mkonstantini.github.io/PortfolioWebsite/](mkonstantini.github.io/PortfolioWebsite/)
 
 ## Technologies
-* HTML / CSS / JavaScript
+* HTML5 / CSS / JavaScript
 * Three.js v0.153.0
 * Bootstrap v5.3
 * Font Awesome
 * Sass
 
-## Setup
-To run this project, install it locally using npm:  
-``` npm install ```
+## Installation
+1. Clone the repository:
+   ``` git clone [mkonstantini.github.io/PortfolioWebsite/] ```
+2. Navigate to the project directory using the ``` cd ``` terminal command.
+3. Install dependencies:
+   ``` npm install ```
+
+## License
+This project is licensed under the [MIT Licence](https://choosealicense.com/licenses/mit/)
+
+
+   
+   

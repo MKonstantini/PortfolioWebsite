@@ -1,5 +1,6 @@
 # PortfolioWebsite
-My portfolio website, for keeping track of my progress and for potential employers.
+My portfolio website, for keeping track of my progress and for potential employers.  
+Link: [mkonstantini.github.io/PortfolioWebsite/](mkonstantini.github.io/PortfolioWebsite/)
 
 ## Technologies
 * HTML / CSS / JavaScript
@@ -10,4 +11,4 @@ My portfolio website, for keeping track of my progress and for potential employe
 
 ## Setup
 To run this project, install it locally using npm:  
-$ npm install
+``` npm install ```

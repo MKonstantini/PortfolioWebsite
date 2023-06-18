@@ -9,5 +9,5 @@ My portfolio website, for keeping track of my progress and for potential employe
 * Sass
 
 ## Setup
-To run this project, install it locally using npm:
+To run this project, install it locally using npm:  
 $ npm install

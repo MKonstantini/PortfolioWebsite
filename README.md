@@ -17,7 +17,7 @@ Link: [mkonstantini.github.io/PortfolioWebsite/](mkonstantini.github.io/Portfoli
    ``` npm install ```
 
 ## License
-This project is licensed under the [MIT Licence](https://choosealicense.com/licenses/mit/)
+This project is licensed under the [MIT Licence](https://choosealicense.com/licenses/mit/).
 
 
    

@@ -1,6 +1,6 @@
 # PortfolioWebsite
 My portfolio website, for keeping track of my progress and for potential employers.  
-Link: [mkonstantini.github.io/PortfolioWebsite/](mkonstantini.github.io/PortfolioWebsite/)
+Link: [mkonstantini.github.io/PortfolioWebsite/](https://mkonstantini.github.io/PortfolioWebsite/)
 
 ## Technologies
 * HTML5 / CSS / JavaScript

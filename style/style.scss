@@ -111,11 +111,8 @@ canvas {
     #section_skills {
         padding-bottom: 56px;
     }
-}
-// Projects Background Display
-@media (max-width: 991px) {
-    .demo_img{
-        display: none;
+    #section_projects {
+        margin-bottom: 120px;
     }
 }
 // Toggle Exwayer Font Sizing
@@ -134,7 +131,7 @@ canvas {
     opacity: 1
 }
 .slide-left{
-    transition: transform 600ms ease-in, opacity 300ms ease-in;
+    transition: transform 380ms ease-in, opacity 300ms ease-in;
     transform: translateX(-20%);
     opacity: 0;
 }

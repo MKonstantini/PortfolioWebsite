@@ -81,7 +81,6 @@ function moveCamera() {
 document.body.onscroll = moveCamera
 
 // Responsive - Window Resizing
-window.scrollTo(0, 0)
 window.addEventListener('resize', function() {
     camera.aspect = window.innerWidth / window.innerHeight
     camera.updateProjectionMatrix()

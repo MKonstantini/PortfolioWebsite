@@ -172,6 +172,9 @@ footer a {
   padding: 5px 10px;
   border-radius: 10px;
 }
+#section_projects .side-left p {
+  max-width: 350px;
+}
 #section_projects .side-right {
   position: relative;
 }
@@ -217,7 +220,7 @@ footer a {
   background-image: linear-gradient(45deg, rgba(117, 117, 117, 0.8), rgba(196, 218, 233, 0.8)), url(../assets/projects/Asteroids_logo.svg);
 }
 #section_projects #project3 .side-right .hoverscreen {
-  background-image: linear-gradient(45deg, rgba(117, 117, 117, 0.8), rgba(198, 196, 233, 0.8)), url(../assets/projects/ManageU_logo.svg);
+  background-image: linear-gradient(45deg, rgba(117, 117, 117, 0.8), rgba(233, 216, 196, 0.8)), url(../assets/projects/Spotlight_logo.svg);
 }
 
 #section_skills {

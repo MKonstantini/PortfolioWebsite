@@ -11,7 +11,7 @@ Link: [mkonstantini.github.io/PortfolioWebsite/](https://mkonstantini.github.io/
 
 ## Installation
 1. Clone the repository:
-   ``` git clone [mkonstantini.github.io/PortfolioWebsite/] ```
+   ``` git clone mkonstantini.github.io/PortfolioWebsite/ ```
 2. Navigate to the project directory using the ``` cd ``` terminal command.
 3. Install dependencies:
    ``` npm install ```
